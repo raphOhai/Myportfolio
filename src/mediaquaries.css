@@ -1,0 +1,28 @@
+.mainGrid{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+
+.mainGrid1{
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+  }
+
+.fixedSides{
+    position: fixed;
+    bottom: 2rem;
+}
+.fixedSidesPadding{
+    padding-left:5rem ;
+}
+.fixedSidesPaddingRight{
+    padding-left: 10rem ;
+}
+
+.horizontalDash{
+    border-left: 3px solid var(--lightest-navy);
+    height: 8rem;
+    margin-left: .5rem;
+  }
+  
