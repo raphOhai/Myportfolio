@@ -7,7 +7,7 @@ const Nav = () => {
       <div className="fixedHeader glasify">
         <div className="headerContainer headerPadding sectionPadding">
           <div className="flex center1">
-            <div className="flex center">
+            <div style={{marginTop:".6rem"}} className="flex center">
               <LogoBox />
             </div>
           </div>
