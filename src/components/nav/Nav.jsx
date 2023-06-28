@@ -2,6 +2,7 @@ import Logo from "../../assets/logo";
 import Button from "../Btn";
 import { handleClickScroll } from "../functions";
 import LogoBox from "../logo/log";
+import LogoBox2 from "../logo/logo";
 
 const Nav = () => {
   return (
@@ -10,7 +11,7 @@ const Nav = () => {
         <div className="headerContainer headerPadding sectionPadding">
           <div className="flex center1">
             <div style={{ marginTop: ".6rem" }} className="flex center">
-              <LogoBox />
+              <LogoBox2 />
             </div>
           </div>
           <div className="headerContent gap2 ">

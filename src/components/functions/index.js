@@ -28,6 +28,20 @@ export const handleClickScroll = (item) => {
   const element = document.getElementById(item);
   if (element) {
     element.scrollIntoView({ behavior: "smooth" });
-
   }
 };
+
+export const drawLogo = () => {
+  const element = document.getElementById("path1");
+  element.classList.add("drawPath1");
+};
+
+export const UndrawLogo = () => {
+  const element = document.getElementById("path1");
+  element.classList.replace("drawPath1", "path1");
+};
+
+export const closeLoader = () =>{
+  const element = document.getElementById("loaderContainer");
+  element.classList.add("remove")
+}

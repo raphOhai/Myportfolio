@@ -190,16 +190,15 @@ body {
 .textAlignStart {
   text-align: start;
 }
-.textAlignCenter{
+.textAlignCenter {
   text-align: center;
 }
 .ExtraWidth {
   width: 110%;
 }
-.fullVh2{
+.fullVh2 {
   height: 60vh;
 }
-
 
 .discriptBox {
   background-color: var(--light-navy);
@@ -251,4 +250,23 @@ body {
 
 .fit {
   width: 100%;
+}
+
+.loaderContainer {
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--background-color);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 20;
+}
+
+.transition{
+  transition: all 1s;
+}
+
+.remove{
+  display: none;
 }

@@ -9,10 +9,12 @@ import GitHib from "./assets/gitHib";
 import TwitterIcon from "./assets/twitter";
 import LinkedIn from "./assets/LinkedIn";
 import Footer from "./components/footer";
+import Loader from "./components/loader";
 
 function App() {
   return (
     <>
+    <Loader/>
       <div className="mainGrid1 ">
         <div className="hideMobile">
           <div className="fixedSides">

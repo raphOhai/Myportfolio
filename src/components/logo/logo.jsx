@@ -2,17 +2,17 @@ import React from "react";
 import Logo from "../../assets/logo";
 import LoderLogo from "../../assets/loderLogo";
 
-const LogoBox = () => {
+const LogoBox2 = () => {
   return (
     <>
       <div className="logoContainer">
-        <LoderLogo />
+        <Logo />
         <div className="logoContent">
-          <p id="logoText" className="logoFont fadeIn">R</p>
+          <p id="logoText" className="logoFont">R</p>
         </div>
       </div>
     </>
   );
 };
 
-export default LogoBox;
+export default LogoBox2;
