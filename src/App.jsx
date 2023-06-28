@@ -28,7 +28,7 @@ function App() {
           <Nav />
           <Hero />
           <div id="about">
-            <div style={{ marginTop: "rem" }}>
+            <div style={{ marginTop: "8rem" }}>
               <Abouts />
             </div>
           </div>
