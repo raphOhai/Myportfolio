@@ -27,14 +27,17 @@
 .showCase {
   background: rgba(6, 22, 27, 0.8);
   max-width: 30rem;
+  overflow: hidden;
+
 }
 
 .showCase img {
-  width: 100%;
+  width: 130%;
   height: 100%;
   position: absolute;
   z-index: -1;
   opacity: 0.3;
+
 }
 
 .minHeight {
