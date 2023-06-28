@@ -27,10 +27,12 @@ const RightLeftShowcase = ({
             <p className="textAlignStart slateText ">{discription}</p>
           </div>
 
-          <div className="flex2 Start">
-            {Tools.map((m) => (
-              <p className="slateText">{m}</p>
-            ))}
+          <div className="flex gap2 start ">
+            <div className="flex2 widthRestrict2">
+              {Tools.map((m) => (
+                <p className="slateText">{m}</p>
+              ))}
+            </div>
           </div>
           <div className="flex gap2 Start">
             <a href={link}>
@@ -78,10 +80,12 @@ const RightLeftShowcase = ({
             <p className="textAlignStart slateText ">{discription}</p>
           </div>
 
-          <div className="flex2 Start">
-            {Tools.map((m) => (
-              <p className="slateText">{m}</p>
-            ))}
+          <div className="flex gap2 start ">
+            <div className="flex2 widthRestrict2">
+              {Tools.map((m) => (
+                <p className="slateText">{m}</p>
+              ))}
+            </div>
           </div>
           <div className="flex gap2 Start">
             <a href={link}>

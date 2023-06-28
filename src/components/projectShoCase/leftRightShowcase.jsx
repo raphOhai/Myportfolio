@@ -40,10 +40,12 @@ const LeftRightShowcase = ({
             <p className="textAlignEnd slateText ">{discription}</p>
           </div>
 
-          <div className="flex gap2 End">
-            {Tools.map((m) => (
-              <p className="slateText">{m}</p>
-            ))}
+          <div className="flex gap2 End ">
+            <div className="flex2 widthRestrict2">
+              {Tools.map((m) => (
+                <p className="slateText">{m}</p>
+              ))}
+            </div>
           </div>
           <div className="flex2  End">
             <a href={link} className="pointer">
@@ -72,10 +74,12 @@ const LeftRightShowcase = ({
             <p className="textAlignStart slateText ">{discription}</p>
           </div>
 
-          <div className="flex2 Start">
-            {Tools.map((m) => (
-              <p className="slateText">{m}</p>
-            ))}
+          <div className="flex gap2 start ">
+            <div className="flex2 widthRestrict2">
+              {Tools.map((m) => (
+                <p className="slateText">{m}</p>
+              ))}
+            </div>
           </div>
           <div className="flex gap2 Start">
             {noCode ? (
@@ -85,7 +89,7 @@ const LeftRightShowcase = ({
                 <GitHib />
               </a>
             )}
-            <a href={link} className="pointer" >
+            <a href={link} className="pointer">
               <Open />
             </a>
           </div>

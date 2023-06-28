@@ -130,6 +130,10 @@ body {
   max-width: 35rem;
 }
 
+.widthRestrict2 {
+  max-width: 20rem;
+}
+
 .fullVh {
   height: 100vh;
 }
@@ -192,6 +196,8 @@ body {
 .ExtraWidth {
   width: 110%;
 }
+
+
 
 .discriptBox {
   background-color: var(--light-navy);
