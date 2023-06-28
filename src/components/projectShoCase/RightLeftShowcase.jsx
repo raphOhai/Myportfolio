@@ -23,8 +23,10 @@ const RightLeftShowcase = ({
             <h1 className="lightSlateText headingText">{projectName}</h1>
           </div>
 
-          <div className="discriptBox ExtraWidth">
-            <p className="textAlignStart slateText ">{discription}</p>
+          <div className="discriptBox ExtraWidth flex center">
+            <div className="textAlignStart">
+              <p className=" slateText ">{discription}</p>
+            </div>
           </div>
 
           <div className="flex gap2 start ">
@@ -53,7 +55,7 @@ const RightLeftShowcase = ({
         <div className="relative">
           <img
             style={{ width: "100%" }}
-            className="responsive projectImg fit"
+            className="responsive projectImg"
             src={Image}
             alt=""
           />

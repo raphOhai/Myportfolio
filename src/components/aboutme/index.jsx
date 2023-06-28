@@ -21,17 +21,17 @@ const Abouts = () => {
         <div className="mainGrid">
           <div className="stack gap1">
             <p className="slateText">
-              Hello! I'm Raphael, an enthusiastic creator with a passion
-              for crafting online experiences. My journey in web development
-              began in 2019 when I embarked on building Fingertipps, my startup.
+              Hello! I'm Raphael, an enthusiastic creator with a passion for
+              crafting online experiences. My journey in web development began
+              in 2019 when I embarked on building Fingertipps, my startup.
               However, I encountered setbacks due to my limited coding knowledge
               at the time.
             </p>
 
             <p className="slateText">
               Fast-forward to the present day, I am proud to share that I have
-              successfully developed and launched Fingertipps, along with
-              working on various side projects to further expand my repertoire.
+              successfully developed Fingertipps, along with working on various
+              side projects to further expand my repertoire.
             </p>
             <p className="slateText">
               Here are a few technologies I’ve been working with recently:

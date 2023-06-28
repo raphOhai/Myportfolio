@@ -36,8 +36,10 @@ const LeftRightShowcase = ({
             <h1 className="lightSlateText headingText">{projectName}</h1>
           </div>
 
-          <div className="discriptBox">
-            <p className="textAlignEnd slateText ">{discription}</p>
+          <div className="discriptBox flex center">
+            <div className="textAlignEnd">
+              <p className=" slateText ">{discription}</p>
+            </div>
           </div>
 
           <div className="flex gap2 End ">
