@@ -1,6 +1,6 @@
 const Abouts = () => {
   return (
-    <div className="flex  maxWidth ">
+    <div  className="flex center maxWidth fullV ">
       <div className="stack gap2 sectionPadding">
         <div style={{ maxWidth: "31rem" }} className="flex ">
           <div className="flex gap1">

@@ -196,7 +196,9 @@ body {
 .ExtraWidth {
   width: 110%;
 }
-
+.fullVh2{
+  height: 60vh;
+}
 
 
 .discriptBox {

@@ -13,7 +13,7 @@ import Footer from "./components/footer";
 function App() {
   return (
     <>
-      <div className="mainGrid1">
+      <div className="mainGrid1 ">
         <div className="hideMobile">
           <div className="fixedSides">
             <div className="stack gap2 fixedSidesPadding ">
@@ -27,9 +27,20 @@ function App() {
         <div className="stack gapX">
           <Nav />
           <Hero />
-          <Abouts />
-          <MyWork />
-          <Footer/>
+          <div id="about">
+            <div style={{ marginTop: "rem" }}>
+              <Abouts />
+            </div>
+          </div>
+
+          <div id="work">
+            <div style={{ marginTop: "8rem" }}>
+              <MyWork />
+            </div>
+          </div>
+          <div id="contact">
+            <Footer />
+          </div>
         </div>
         <div className="hideMobile">
           <div className="fixedSides">

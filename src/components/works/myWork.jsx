@@ -4,7 +4,7 @@ import LeftRightShowcase from "../projectShoCase/leftRightShowcase";
 const MyWork = () => {
   return (
     <>
-      <div style={{ marginTop: "3rem" }} className=" flex maxWidth  ">
+      <div  style={{ marginTop: "3rem" }} className=" flex maxWidth  ">
         <div className="stack gap2 sectionPadding">
           <div style={{ maxWidth: "43rem" }} className="flex gap1 ">
             <div className="flex gap1">

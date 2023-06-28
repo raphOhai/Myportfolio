@@ -7,12 +7,14 @@ const Button = ({ slide, text, displayText }) => {
     <div
       onMouseOver={() => hoverEvent(slide, text)}
       onMouseLeave={() => leveEvent(slide, text)}
-      className="btnContainer flex center"
+      className="btnContainer "
     >
-      <div id={slide} className=" slide transition2"></div>
-      <p id={text} className="default">
-        {displayText}
-      </p>
+      <div className="flex2 center">
+        <div id={slide} className=" slide transition2"></div>
+        <p id={text} className="default">
+          {displayText}
+        </p>
+      </div>
     </div>
   );
 };

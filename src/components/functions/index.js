@@ -23,3 +23,11 @@ export const showOverLay = (overlay) => {
   const Overlay = document.getElementById(overlay);
   Overlay?.classList.remove("Hide");
 };
+
+export const handleClickScroll = (item) => {
+  const element = document.getElementById(item);
+  if (element) {
+    element.scrollIntoView({ behavior: "smooth" });
+
+  }
+};
