@@ -8,12 +8,13 @@ import Open from "./assets/open";
 import GitHib from "./assets/gitHib";
 import TwitterIcon from "./assets/twitter";
 import LinkedIn from "./assets/LinkedIn";
+import Footer from "./components/footer";
 
 function App() {
   return (
     <>
       <div className="mainGrid1">
-        <div >
+        <div className="hideMobile">
           <div className="fixedSides">
             <div className="stack gap2 fixedSidesPadding ">
               <TwitterIcon />
@@ -28,8 +29,9 @@ function App() {
           <Hero />
           <Abouts />
           <MyWork />
+          <Footer/>
         </div>
-        <div>
+        <div className="hideMobile">
           <div className="fixedSides">
             <div className="stack gap2 fixedSidesPaddingRight ">
               <div className="">

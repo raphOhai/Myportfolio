@@ -16,7 +16,7 @@ const Abouts = () => {
               About Me
             </h1>
           </div>
-          <div style={{marginTop:"-.1rem"}}   className="flex center">
+          <div style={{marginTop:"-.1rem"}}   className="flex center ">
             <div className="dash"></div>
           </div>
         </div>
@@ -46,7 +46,7 @@ const Abouts = () => {
               Here are a few technologies I’ve been working with recently:
             </p>
           </div>
-          <div></div>
+          <div className="hideTabAndMobile"></div> 
         </div>
       </div>
     </div>

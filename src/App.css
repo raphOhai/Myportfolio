@@ -60,13 +60,12 @@ body {
   font-size: 2rem;
 }
 
-.logoContainer{
+.logoContainer {
   position: relative;
 }
-.logoContent{
-  
+.logoContent {
   position: absolute;
-  top: .1rem;
+  top: 0.1rem;
   left: 1.05rem;
 }
 
@@ -148,12 +147,15 @@ body {
 .headerPadding {
   padding: 0.1rem;
 }
+.Hide {
+  opacity: 0;
+}
 
 .fixedHeader {
   position: fixed;
   left: 0;
   right: 0;
-  z-index: 4;
+  z-index: 10;
   /* box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 24px; */
 }
 .glasify {
@@ -161,31 +163,34 @@ body {
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
 }
-.sectionPadding {
-  padding-left: 4rem;
-  padding-right: 4rem;
-}
+
 .dash {
   padding: 0.3rem;
   border-bottom: 1px solid var(--lightest-navy);
   width: 18rem;
 }
 
-.grid2 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-.responsive {
-  width: 120%;
-  height: auto;
-}
-
 .End {
   justify-content: end;
   align-items: end;
 }
+
+.Start {
+  justify-content: start;
+  align-items: start;
+}
 .textAlignEnd {
   text-align: end;
+}
+
+.textAlignStart {
+  text-align: start;
+}
+.textAlignCenter{
+  text-align: center;
+}
+.ExtraWidth {
+  width: 110%;
 }
 
 .discriptBox {
@@ -216,15 +221,6 @@ body {
   font-weight: 400;
 }
 
-.imageOverlay {
-  background: rgba(28, 70, 82, 0.7);
-  position: absolute;
-  top: 0;
-  height: 100%;
-  width: 120%;
-  z-index: 5;
-}
-
 .relative {
   position: relative;
 }
@@ -238,4 +234,12 @@ body {
 
 .rotate90 {
   rotate: 90deg;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.fit {
+  width: 100%;
 }

@@ -3,7 +3,7 @@ import React from "react";
 const Hero = () => {
   return (
     <>
-      <div className="flex center maxWidth fullVh">
+      <div className="flex center maxWidth fullVh sectionPadding">
         <div className="stack gap1 ">
           <div>
             <h1 className="greenText regularsizeText">Hi, my name is</h1>

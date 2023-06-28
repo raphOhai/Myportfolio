@@ -1,5 +1,5 @@
-import GitHib from "../../assets/gitHib";
-import Open from "../../assets/open";
+import RightLeftShowcase from "../projectShoCase/RightLeftShowcase";
+import LeftRightShowcase from "../projectShoCase/leftRightShowcase";
 
 const MyWork = () => {
   return (
@@ -17,57 +17,84 @@ const MyWork = () => {
                 Some Things I’ve Built
               </h1>
             </div>
-            <div style={{ marginTop: "-.1rem" }} className="flex center">
+            <div
+              style={{ marginTop: "-.1rem" }}
+              className="flex center hideTabAndMobile"
+            >
               <div className="dash"></div>
             </div>
           </div>
 
           <main>
-            <div className="stack">
-              <div className="grid2">
-                <div className="">
-                  <div className="relative ">
-                    <img className="responsive" src="/fingertipps.png" alt="" />
-                    <div className="overFlowHidden">
-                      <div className="imageOverlay"></div>
-                    </div>
-                  </div>
-                </div>
-                <div>
-                  <div className="stack gap2">
-                    <div className="stack gap End">
-                      <p className="featuredText">Featured Project</p>
+            <div className="stack gapX">
+              <LeftRightShowcase
+                projectName={"fingertipps"}
+                discription={`Fingertipps, is an all-in-one platform that facilitates
+                e-commerce. Here, small businesses can create, customize and
+                manage their personal e-commerce stores as well as the logistics
+                involved, all for free, via their smart devices`}
+                Tools={["MongoDB", "Node", "React", "Redux", "Express", "linux", "Apache2"]}
+                Image={"/fingertipps.png"}
+                overlayId={"fff"}
+                noCode={true}
+                link={"https://fingertipps.store/"}
+                gitHub={""}
+              />
+              <RightLeftShowcase
+                projectName={"cowrywise clone"}
+                discription={`Fingertipps, is an all-in-one platform that facilitates
+                e-commerce. Here, small businesses can create, customize and
+                manage their personal e-commerce stores as well as the logistics
+                involved, all for free, via their smart devices`}
+                Tools={["React", "Redux", "CSS"]}
+                Image={"/cowryWise.png"}
+                overlayId={"fff22"}
+                noCode={false}
+                link={"https://cowry-wise-clone.vercel.app/"}
+                gitHub={"https://github.com/raphpumkin/cowryWiseClone"}
+              />
 
-                      <h1 className="lightSlateText headingText">
-                        Fingertipps
-                      </h1>
-                    </div>
+              <LeftRightShowcase
+                projectName={"GitHub Clone"}
+                discription={`Fingertipps, is an all-in-one platform that facilitates
+                e-commerce. Here, small businesses can create, customize and
+                manage their personal e-commerce stores as well as the logistics
+                involved, all for free, via their smart devices`}
+                Tools={["React", "Redux", "CSS", "Material-UI"]}
+                Image={"/GitHub.png"}
+                overlayId={"fdeff22"}
+                noCode={false}
+                link={"https://git-hub-landing-page.vercel.app/"}
+                gitHub={"https://github.com/raphpumkin/GitHubLandingPage"}
+              />
 
-                    <div className="discriptBox">
-                      <p className="textAlignEnd slateText ">
-                        Fingertipps, is an all-in-one platform that facilitates
-                        e-commerce. Here, small businesses can create, customize
-                        and manage their personal e-commerce stores as well as
-                        the logistics involved, all for free, via their smart
-                        devices. 
-                      </p>
-                    </div>
+              <RightLeftShowcase
+                projectName={"cowrywise clone"}
+                discription={`Fingertipps, is an all-in-one platform that facilitates
+                e-commerce. Here, small businesses can create, customize and
+                manage their personal e-commerce stores as well as the logistics
+                involved, all for free, via their smart devices`}
+                Tools={["React", "Redux", "Css"]}
+                Image={"/metaQuest.png"}
+                overlayId={"fdeededf22"}
+                noCode={false}
+                link={"https://meta-quest-pro-landing-page.vercel.app/"}
+                gitHub={"https://github.com/raphpumkin/metaQuestProLnadinPage"}
+              />
 
-                    <div className="flex gap2 End">
-                      <p className="slateText">Node</p>
-                      <p className="slateText">React</p>
-                      <p className="slateText">Redux</p>
-                      <p className="slateText">MongoDB</p>
-                      <p className="slateText">Express</p>
-                      {/* <p className="slateText">Apache</p> */}
-                    </div>
-                    <div className="flex gap2 End">
-                      <Open />
-                      <GitHib />
-                    </div>
-                  </div>
-                </div>
-              </div>
+              <LeftRightShowcase
+                projectName={"GitHub Clone"}
+                discription={`Fingertipps, is an all-in-one platform that facilitates
+                e-commerce. Here, small businesses can create, customize and
+                manage their personal e-commerce stores as well as the logistics
+                involved, all for free, via their smart devices`}
+                Tools={["React (TypeScript)", "CSS", "Figma"]}
+                Image={"/jack.png"}
+                overlayId={"fdefdcdc22"}
+                noCode={false}
+                link={"https://jack-daniel-s.vercel.app/"}
+                gitHub={"https://github.com/raphpumkin/jackDaniel-s"}
+              />
             </div>
           </main>
         </div>

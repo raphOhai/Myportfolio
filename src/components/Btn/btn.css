@@ -1,0 +1,55 @@
+:root {
+  --main-text-color: #fff;
+
+  --main-backgroundColor: #0a192f;
+
+  --Btn--color: #64ffda;
+}
+
+.btnContainer {
+  position: relative;
+  border: 1px solid var(--Btn--color);
+  border-radius: 4px;
+  max-width: 10rem;
+  min-width: 5rem;
+  padding: 0.5rem;
+  max-height: 2rem;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.btnContainer p {
+  /* color: #baab8f; */
+  font-family: Mulish;
+  text-transform: capitalize;
+  z-index: 2;
+}
+
+.slide {
+  background-color: var(--Btn--color);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  right: 12rem;
+}
+
+.right0 {
+  right: 0;
+}
+
+.showText {
+  color: #0a192f;
+}
+
+.default {
+  color: #64ffda;
+}
+
+.transition2 {
+  transition: all 0.4s ease;
+}
+
+.pointer {
+  cursor: pointer;
+}
