@@ -55,7 +55,7 @@ const RightLeftShowcase = ({
         <div className="relative">
           <img
             style={{ width: "100%" }}
-            className="responsive projectImg"
+            className="responsive"
             src={Image}
             alt=""
           />
