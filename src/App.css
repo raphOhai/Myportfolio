@@ -282,13 +282,14 @@ body {
   z-index: 15;
 }
 
-.drawNav{
+.drawNav {
   height: 100vh;
 }
 
-
-
-
+a {
+  text-decoration: none;
+  text-transform: none;
+}
 
 .dashContainer {
   position: relative;
@@ -296,7 +297,7 @@ body {
 
 .dashContainer:nth-child(1) {
   position: absolute;
-  top: .9rem;
+  top: 0.9rem;
   right: -1rem;
   width: 1.5rem;
   height: 2px;
@@ -311,7 +312,6 @@ body {
   height: 2px;
   background-color: var(--green);
 }
-
 
 .rotateDashContainer:nth-child(1) {
   position: absolute;
