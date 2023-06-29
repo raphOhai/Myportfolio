@@ -264,7 +264,7 @@ body {
 }
 
 .transition {
-  transition: all 1s;
+  transition: all .5s;
 }
 
 .remove {
