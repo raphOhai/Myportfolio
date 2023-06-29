@@ -83,7 +83,7 @@ const MyWork = () => {
 
               <LeftRightShowcase
                 projectName={"GitHub Clone"}
-                discription={`I undertook the redesign and development of Jack Daniel's landing page, incorporating captivating SVG path animations and a seamless video scroll animation to enhance its visual appeal and user experience.`}
+                discription={`I undertook the redesign and development of Jack Daniels landing page, incorporating captivating SVG path animations and a seamless video scroll animation to enhance its visual appeal and user experience.`}
                 Tools={["React (TypeScript)", "CSS", "Figma"]}
                 Image={"/jack.png"}
                 overlayId={"fdefdcdc22"}

@@ -23,16 +23,9 @@ export default function InterSectionChecker(
             const undraw = () => {
               revarseAction();
             };
-
-      
-            
-
             setTimeout(undraw, 2000);
             setTimeout(closeLoader, 2800);
             setTimeout(nextAnimation, 3000);
-
-
-
           } else {
             revarseAction();
           }
