@@ -28,7 +28,7 @@ const MyWork = () => {
           <main>
             <div className="stack gapX">
               <LeftRightShowcase
-                projectName={"fingertipps"}
+                projectName={"Fingertipps"}
                 discription={`Fingertipps, is an all-in-one platform that facilitates
                 e-commerce. Here, small businesses can create, customize and
                 manage their personal e-commerce stores as well as the logistics
@@ -49,7 +49,7 @@ const MyWork = () => {
                 gitHub={""}
               />
               <RightLeftShowcase
-                projectName={"cowrywise clone"}
+                projectName={"Cowrywise clone"}
                 discription={`I found the design of CowryWise to be highly impressive, which has motivated me to create a similar landing page as an homage to their aesthetic and user experience.`}
                 Tools={["React", "Redux", "CSS"]}
                 Image={"/cowryWise.png"}
@@ -82,7 +82,7 @@ const MyWork = () => {
               />
 
               <LeftRightShowcase
-                projectName={"GitHub Clone"}
+                projectName={"Jack Daniels"}
                 discription={`I undertook the redesign and development of Jack Daniels landing page, incorporating captivating SVG path animations and a seamless video scroll animation to enhance its visual appeal and user experience.`}
                 Tools={["React (TypeScript)", "CSS", "Figma"]}
                 Image={"/jack.png"}
