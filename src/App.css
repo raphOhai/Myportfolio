@@ -297,8 +297,8 @@ a {
 
 .dashContainer:nth-child(1) {
   position: absolute;
-  top: 0.9rem;
-  right: -1rem;
+  top: 1.5rem;
+  right: -.5rem;
   width: 1.5rem;
   height: 2px;
   background-color: var(--green);
@@ -306,8 +306,8 @@ a {
 
 .dashContainer:nth-child(2) {
   position: absolute;
-  top: 1.5rem;
-  right: -1rem;
+  top: 2rem;
+  right: -.5rem;
   width: 1.5rem;
   height: 2px;
   background-color: var(--green);
@@ -322,7 +322,7 @@ a {
 
 .rotateDashContainer:nth-child(2) {
   position: absolute;
-  top: 1rem;
+  top: 1.5rem;
   rotate: -45deg;
   background-color: var(--green);
 }

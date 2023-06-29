@@ -12,7 +12,7 @@ const Nav = () => {
           <div className="flex center1">
             <div
               id="logo"
-              style={{ marginTop: ".6rem" }}
+              style={{ marginTop: "1.2rem" }}
               className="flex center"
             >
               <LogoBox2 />
@@ -60,6 +60,7 @@ const Nav = () => {
                 displayText="resume"
               />
             </div> */}
+         
             <div
               onClick={() => navAnimation()}
               className="dashContainer hideDeskTop"
