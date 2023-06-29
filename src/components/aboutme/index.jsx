@@ -1,6 +1,9 @@
+import MultipleAnimator from "../functions/BulkAnimator";
+
 const Abouts = () => {
+  MultipleAnimator()
   return (
-    <div  className="flex center maxWidth fullV ">
+    <div  className="flex center maxWidth fullV SlideUp">
       <div className="stack gap2 sectionPadding">
         <div style={{ maxWidth: "31rem" }} className="flex ">
           <div className="flex gap1">
@@ -8,7 +11,7 @@ const Abouts = () => {
               01.
             </p>
           </div>
-          <div style={{ marginTop: "-.9em" }} className="flex center">
+          <div style={{ marginTop: "-.9rem" }} className="flex center">
             <h1 className="firstHeading lightSlateText headingText">
               About Me
             </h1>

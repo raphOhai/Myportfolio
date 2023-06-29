@@ -2,6 +2,7 @@ import React from "react";
 import Open from "../../assets/open";
 import GitHib from "../../assets/gitHib";
 import { hideOverLay, showOverLay } from "../functions";
+import MultipleAnimator from "../functions/BulkAnimator";
 
 const RightLeftShowcase = ({
   projectName,
@@ -13,8 +14,9 @@ const RightLeftShowcase = ({
   link,
   gitHub,
 }) => {
+  MultipleAnimator()
   return (
-    <div className="grid2">
+    <div className="grid2 SlideUp">
       <div className="hideTabAndMobile">
         <div className="stack gap2">
           <div className="stack gap Start">
@@ -51,17 +53,17 @@ const RightLeftShowcase = ({
         </div>
       </div>
 
-      <div style={{ paddingLeft: "-9rem" }} className="hideTabAndMobile">
+      <div style={{ paddingLeft: "-9rem" }} className="hideTabAndMobile overFlowHidde">
         <div className="relative">
           <img
-            style={{ width: "100%" }}
+            style={{ }}
             className="responsive"
             src={Image}
             alt=""
           />
           <div className="overFlowHidden">
             <div
-              style={{ width: "100%" }}
+              // style={{ width: "100%" }}
               onMouseOver={() => hideOverLay(overlayId)}
               onMouseLeave={() => showOverLay(overlayId)}
               id={overlayId}

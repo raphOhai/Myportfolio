@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { closeLoader } from ".";
+import { closeLoader, nextAnimation } from ".";
 
 export default function InterSectionChecker(
   trigger,
@@ -9,6 +9,7 @@ export default function InterSectionChecker(
 ) {
   useEffect(() => {
     const hiddenElements1 = document.getElementById(item);
+
     const observer = new IntersectionObserver((entries) => {
       entries.forEach(
         (entry) => {
@@ -23,16 +24,17 @@ export default function InterSectionChecker(
               revarseAction();
             };
 
-            setTimeout(undraw, 2000);
+      
+            
 
+            setTimeout(undraw, 2000);
             setTimeout(closeLoader, 2800);
+            setTimeout(nextAnimation, 3000);
+
+
+
           } else {
             revarseAction();
-            // const showPicture = () => {
-            //   hiddenElements1?.classList.remove("show");
-            //   entry.target.classList.remove("show");
-            // };
-            // setTimeout(showPicture, 1000);
           }
         },
         { threshold: 0.2 }

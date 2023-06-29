@@ -9,6 +9,7 @@ const Logo = () => {
     >
       <path
         stroke="#64ffda"
+        className="drawPath1"
         strokeWidth="20"
         d="M292.383 0.5L237.051 262.207L156.81 319.884L76.4324 262.195L0.975087 0.5H156.811H292.383Z"
       />

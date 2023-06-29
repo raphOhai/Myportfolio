@@ -2,6 +2,7 @@ import React from "react";
 import Open from "../../assets/open";
 import GitHib from "../../assets/gitHib";
 import { hideOverLay, showOverLay } from "../functions";
+import MultipleAnimator from "../functions/BulkAnimator";
 
 const LeftRightShowcase = ({
   projectName,
@@ -13,8 +14,9 @@ const LeftRightShowcase = ({
   link,
   gitHub,
 }) => {
+  MultipleAnimator()
   return (
-    <div className="grid2">
+    <div className="grid2 SlideUp">
       <div className="hideTabAndMobile">
         <div className="relative ">
           <img className="responsive" src={Image} alt="" />

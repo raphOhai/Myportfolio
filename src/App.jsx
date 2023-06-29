@@ -10,15 +10,17 @@ import TwitterIcon from "./assets/twitter";
 import LinkedIn from "./assets/LinkedIn";
 import Footer from "./components/footer";
 import Loader from "./components/loader";
+import MobileNave from "./components/mobileNav";
 
 function App() {
   return (
     <>
     <Loader/>
+    <MobileNave/>
       <div className="mainGrid1 ">
         <div className="hideMobile">
           <div className="fixedSides">
-            <div className="stack gap2 fixedSidesPadding ">
+            <div id="socials" className="stack gap2 fixedSidesPadding sideSlide2">
               <TwitterIcon />
               <GitHib />
               <LinkedIn />
@@ -46,8 +48,8 @@ function App() {
         </div>
         <div className="hideMobile">
           <div className="fixedSides">
-            <div className="stack gap2 fixedSidesPaddingRight ">
-              <div className="">
+            <div id="email" className="stack gap2 fixedSidesPaddingRight sideSlide2">
+              <div  className="">
                 <p className="email horizontalText">raphaelohai5@gmail.com</p>
               </div>
 

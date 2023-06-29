@@ -4,6 +4,6 @@
   }
   
   .drawPath1 {
-    stroke-dashoffset: 40;
-    stroke-dasharray: 1000;
+    stroke-dashoffset: 1;
+    stroke-dasharray: 200;
   }

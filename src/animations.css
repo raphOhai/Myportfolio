@@ -6,11 +6,11 @@
     transition: all 4s;
   }
   
-  .sideSlide1 {
+  .sideSlide2 {
     opacity: 0;
     /* filter: blur(2px); */
-    transform: translateX(-15%);
-    transition: all 1s;
+    transform: translateY(-5%);
+    transition: all .5s;
   }
   
   .fastSlide {
@@ -21,6 +21,13 @@
   }
   
   .SlideUp {
+    opacity: 0;
+    filter: blur(2px);
+    transform: translatey(5%);
+    transition: all 0.5s;
+  }
+
+  .SlideUp2 {
     opacity: 0;
     filter: blur(2px);
     transform: translatey(5%);

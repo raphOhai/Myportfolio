@@ -41,7 +41,57 @@ export const UndrawLogo = () => {
   element.classList.replace("drawPath1", "path1");
 };
 
-export const closeLoader = () =>{
+export const closeLoader = () => {
   const element = document.getElementById("loaderContainer");
-  element.classList.add("remove")
-}
+  element.classList.add("remove");
+};
+
+export const nextAnimation = () => {
+  const nextAnimationGroup = document.querySelectorAll(".SlideUp2");
+  nextAnimationGroup.forEach((m) => m.classList.add("show"));
+  sideAnimation();
+};
+
+export const sideAnimation = () => {
+  const element1 = document.getElementById("socials");
+  const element2 = document.getElementById("email");
+  const showElement1 = () => {
+    element1.classList.add("show");
+  };
+  const showElement2 = () => {
+    element2.classList.add("show");
+  };
+  setTimeout(showElement1, 1000);
+  setTimeout(showElement2, 1500);
+};
+
+export const navAnimation = () => {
+  const dashes = document.querySelectorAll(".dashContainer");
+  dashes.forEach((m) => {
+    if (m.classList.contains("rotateDashContainer")) {
+      m.classList.remove("rotateDashContainer");
+      hideMobileNav();
+    } else {
+      m.classList.add("rotateDashContainer");
+      showMobileNav();
+    }
+  });
+};
+
+const showMobileNav = () => {
+  const mobilenav = document.querySelector(".mobileNaveContainer");
+  const navContent = document.getElementById("navContent");
+  mobilenav.classList.add("drawNav");
+  navContent.classList.remove("remove");
+};
+
+export const hideMobileNav = () => {
+  const mobilenav = document.querySelector(".mobileNaveContainer");
+  const navContent = document.getElementById("navContent");
+  mobilenav.classList.remove("drawNav");
+
+  const hideContent = () => {
+    navContent.classList.add("remove");
+  };
+  setTimeout(hideContent, 500);
+};

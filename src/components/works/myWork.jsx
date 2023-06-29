@@ -4,12 +4,12 @@ import LeftRightShowcase from "../projectShoCase/leftRightShowcase";
 const MyWork = () => {
   return (
     <>
-      <div  style={{ marginTop: "3rem" }} className=" flex maxWidth  ">
+      <div  style={{ marginTop: "3rem" }} className=" flex maxWidth center  ">
         <div className="stack gap2 sectionPadding">
           <div style={{ maxWidth: "43rem" }} className="flex gap1 ">
             <div className="flex gap1">
               <p className="greenText regularsizeText bulletPointFontSize ">
-                03.
+                02.
               </p>
             </div>
             <div style={{ marginTop: "-.9em" }} className="flex center">

@@ -159,7 +159,7 @@ body {
   position: fixed;
   left: 0;
   right: 0;
-  z-index: 10;
+  z-index: 18;
   /* box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 24px; */
 }
 .glasify {
@@ -263,10 +263,66 @@ body {
   z-index: 20;
 }
 
-.transition{
+.transition {
   transition: all 1s;
 }
 
-.remove{
+.remove {
   display: none;
+}
+
+.mobileNaveContainer {
+  width: 100vw;
+  height: 0vh;
+  background-color: var(--background-color);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 15;
+}
+
+.drawNav{
+  height: 100vh;
+}
+
+
+
+
+
+.dashContainer {
+  position: relative;
+}
+
+.dashContainer:nth-child(1) {
+  position: absolute;
+  top: .9rem;
+  right: -1rem;
+  width: 1.5rem;
+  height: 2px;
+  background-color: var(--green);
+}
+
+.dashContainer:nth-child(2) {
+  position: absolute;
+  top: 1.5rem;
+  right: -1rem;
+  width: 1.5rem;
+  height: 2px;
+  background-color: var(--green);
+}
+
+
+.rotateDashContainer:nth-child(1) {
+  position: absolute;
+
+  rotate: 45deg;
+  background-color: var(--green);
+}
+
+.rotateDashContainer:nth-child(2) {
+  position: absolute;
+  top: 1rem;
+  rotate: -45deg;
+  background-color: var(--green);
 }

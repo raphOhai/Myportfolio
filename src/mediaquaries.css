@@ -28,7 +28,6 @@
   background: rgba(6, 22, 27, 0.8);
   max-width: 30rem;
   overflow: hidden;
-
 }
 
 .showCase img {
@@ -37,16 +36,23 @@
   position: absolute;
   z-index: -1;
   opacity: 0.3;
-
 }
 
 .minHeight {
   min-height: 30rem;
 }
+
+.responsive2 {
+  width: 100%;
+  height: auto;
+}
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .hideTabAndMobile {
     display: none;
+  }
+  #logo{
+    margin-left:-.7rem ;
   }
   .hideTabAndMobileFlex {
     display: none;
@@ -91,7 +97,9 @@
   .dash {
     padding: 0.3rem;
     border-bottom: 1px solid var(--lightest-navy);
-    width: 10rem;
+    width: 5rem;
+    margin-left: -3rem;
+    z-index: -2;
   }
 }
 
@@ -183,7 +191,7 @@
   }
   .mainGrid1 {
     display: grid;
-    grid-template-columns: .5fr 6fr .5fr;
+    grid-template-columns: 0.5fr 6fr 0.5fr;
   }
   .responsive {
     width: 100%;
@@ -233,7 +241,7 @@
     background: rgba(28, 70, 82, 0.7);
     position: absolute;
     top: 0;
-    height: 100%;
+    height: 98.5%;
     width: 120%;
     z-index: 5;
   }
@@ -291,7 +299,7 @@
     background: rgba(28, 70, 82, 0.7);
     position: absolute;
     top: 0;
-    height: 100%;
+    height: 98.5%;
     width: 120%;
     z-index: 5;
   }
