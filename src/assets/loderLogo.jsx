@@ -10,7 +10,7 @@ const LoderLogo = () => {
       xmlns="http://www.w3.org/2000/svg"
     >
       <path
-        className="path1 transition"
+        className="path1 transitionLogo"
         id="path1"
         stroke="#64ffda"
         strokeWidth="20"

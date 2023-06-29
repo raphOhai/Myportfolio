@@ -326,3 +326,7 @@ a {
   rotate: -45deg;
   background-color: var(--green);
 }
+
+.transitionLogo{
+  transition: all 1s;
+}
