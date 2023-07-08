@@ -27,7 +27,7 @@ function App() {
               <a href="https://twitter.com/raph_ohai">
                 <TwitterIcon />
               </a>
-              <a href="https://github.com/raphOhai/host">
+              <a href="https://github.com/raphOhai/">
                 <GitHib />
               </a>
               <a href="https://www.linkedin.com/in/raphael-ohai-micheal/">
