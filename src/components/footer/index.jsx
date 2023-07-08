@@ -4,6 +4,7 @@ import MultipleAnimator from "../functions/BulkAnimator";
 
 const Footer = () => {
   MultipleAnimator();
+  const email = "raphaelohai5@gmail.com";
   return (
     <div className="flex center maxWidth fullVh sectionPadding ">
       <div className="stack gap3 textAlignCenter">
@@ -16,7 +17,7 @@ const Footer = () => {
           any outreach if my services align with your needs. Thank you.
         </p>
         <div className="flex center  SlideUp group">
-          <a href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=raphaelohai5@gmail.com">
+          <a href={`mailto:${email}`}>
             <Button
               slide={"btnld45"}
               text={"btntfft45"}

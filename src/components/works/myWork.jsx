@@ -58,7 +58,6 @@ const MyWork = () => {
                 link={"https://cowry-wise-clone.vercel.app/"}
                 gitHub={"https://github.com/raphpumkin/cowryWiseClone"}
               />
-
               <LeftRightShowcase
                 projectName={"GitHub Clone"}
                 discription={`I have always been fascinated by the visually appealing design of the GitHub landing page, which has motivated me to create a clone of it as a demonstration of its impressive aesthetics`}
@@ -69,7 +68,6 @@ const MyWork = () => {
                 link={"https://git-hub-landing-page.vercel.app/"}
                 gitHub={"https://github.com/raphpumkin/GitHubLandingPage"}
               />
-
               <RightLeftShowcase
                 projectName={"Meta's Quest pro"}
                 discription={`I utilized the Apple Design System to redesign and develop the landing page of Meta’s Quest Pro, incorporating an engaging video scroll effect as an additional enhancement`}
@@ -80,7 +78,6 @@ const MyWork = () => {
                 link={"https://meta-quest-pro-landing-page.vercel.app/"}
                 gitHub={"https://github.com/raphpumkin/metaQuestProLnadinPage"}
               />
-
               <LeftRightShowcase
                 projectName={"Jack Daniels"}
                 discription={`I undertook the redesign and development of Jack Daniels landing page, incorporating captivating SVG path animations and a seamless video scroll animation to enhance its visual appeal and user experience.`}
