@@ -1,6 +1,9 @@
 import React from "react";
 import Button from "../Btn";
 import MultipleAnimator from "../functions/BulkAnimator";
+import TwitterIcon from "../../assets/twitter";
+import GitHib from "../../assets/gitHib";
+import LinkedIn from "../../assets/LinkedIn";
 
 const Footer = () => {
   MultipleAnimator();
@@ -23,6 +26,18 @@ const Footer = () => {
               text={"btntfft45"}
               displayText="Get in touch"
             />
+          </a>
+        </div>
+
+        <div className="flex gap3 center hideDeskTopAndTabFlex">
+          <a href="https://twitter.com/raph_ohai">
+            <TwitterIcon />
+          </a>
+          <a href="https://github.com/raphOhai/host">
+            <GitHib />
+          </a>
+          <a href="https://www.linkedin.com/in/raphael-ohai-micheal/">
+            <LinkedIn />
           </a>
         </div>
       </div>

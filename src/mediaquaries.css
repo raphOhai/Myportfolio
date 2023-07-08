@@ -51,8 +51,12 @@
   .hideTabAndMobile {
     display: none;
   }
-  #logo{
-    margin-left:-.7rem ;
+  .hideDeskTopAndTabFlex {
+    display: flex;
+  }
+
+  #logo {
+    margin-left: -0.7rem;
   }
   .hideTabAndMobileFlex {
     display: none;
@@ -111,6 +115,9 @@
   .hideTabAndMobileFlex {
     display: none;
   }
+  .hideDeskTopAndTabFlex {
+    display: flex;
+  }
 
   .hideMobile {
     display: none;
@@ -162,6 +169,10 @@
   .hideTabAndMobile {
     display: none;
   }
+  .hideDeskTopAndTabFlex {
+    display: none;
+  }
+
   .hideTabAndMobileFlex {
     display: none;
   }
@@ -221,6 +232,9 @@
   .hideTabAndMobile {
     display: block;
   }
+  .hideDeskTopAndTabFlex {
+    display: none;
+  }
   .hideTabAndMobileFlex {
     display: flex;
   }
@@ -277,6 +291,9 @@
 @media only screen and (min-width: 1200px) {
   .hideTabAndMobile {
     display: block;
+  }
+  .hideDeskTopAndTabFlex {
+    display: none;
   }
   .hideTabAndMobileFlex {
     display: flex;
