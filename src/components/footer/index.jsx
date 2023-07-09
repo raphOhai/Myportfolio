@@ -29,7 +29,7 @@ const Footer = () => {
           </a>
         </div>
 
-        <div className="flex gap3 center hideDeskTopAndTabFlex">
+        <div className="flex gap3 center hideDeskTopAndTabFlex SlideUp group">
           <a href="https://twitter.com/raph_ohai">
             <TwitterIcon />
           </a>
