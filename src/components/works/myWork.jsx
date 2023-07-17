@@ -4,7 +4,7 @@ import LeftRightShowcase from "../projectShoCase/leftRightShowcase";
 const MyWork = () => {
   return (
     <>
-      <div  style={{ marginTop: "3rem" }} className=" flex maxWidth center  ">
+      <div style={{ marginTop: "3rem" }} className=" flex maxWidth center  ">
         <div className="stack gap2 sectionPadding">
           <div style={{ maxWidth: "43rem" }} className="flex gap1 ">
             <div className="flex gap1">
@@ -49,24 +49,32 @@ const MyWork = () => {
                 gitHub={""}
               />
               <RightLeftShowcase
-                projectName={"Cowrywise clone"}
-                discription={`I found the design of CowryWise to be highly impressive, which has motivated me to create a similar landing page as an homage to their aesthetic and user experience.`}
-                Tools={["React", "Redux", "CSS"]}
-                Image={"/cowryWise.png"}
-                overlayId={"fff22"}
-                noCode={false}
-                link={"https://cowry-wise-clone.vercel.app/"}
+                projectName={"The Fingertipps-APi"}
+                discription={`A tool for building fully funtional eccomerce aplications, eliminating the for writing back-end code`}
+                Tools={[
+                  "TypeScript",
+                  "Next.js",
+                  "MongoDB",
+                  "Node",
+                  "Express",
+                  "linux",
+                  "Apache2",
+                ]}
+                Image={"/fingertipps-api.png"}
+                overlayId={"fff22345"}
+                noCode={true}
+                link={"https://fingertipps-api-docs.vercel.app/"}
                 gitHub={"https://github.com/raphpumkin/cowryWiseClone"}
               />
               <LeftRightShowcase
-                projectName={"GitHub Clone"}
-                discription={`I have always been fascinated by the visually appealing design of the GitHub landing page, which has motivated me to create a clone of it as a demonstration of its impressive aesthetics`}
-                Tools={["React", "Redux", "CSS", "Material-UI"]}
-                Image={"/GitHub.png"}
+                projectName={"True Buy"}
+                discription={`A fully functional eccomerce aplication built with the Fingertipps-API`}
+                Tools={["React", "Redux", "CSS", "Fingertipps-API"]}
+                Image={"/trueBuy.png"}
                 overlayId={"fdeff22"}
                 noCode={false}
-                link={"https://git-hub-landing-page.vercel.app/"}
-                gitHub={"https://github.com/raphpumkin/GitHubLandingPage"}
+                link={"https://furniture-site-chi.vercel.app/products"}
+                gitHub={"https://github.com/raphOhai/furnitureSite"}
               />
               <RightLeftShowcase
                 projectName={"Meta's Quest pro"}
@@ -87,6 +95,26 @@ const MyWork = () => {
                 noCode={false}
                 link={"https://jack-daniel-s.vercel.app/"}
                 gitHub={"https://github.com/raphpumkin/jackDaniel-s"}
+              />
+              <RightLeftShowcase
+                projectName={"Cowrywise clone"}
+                discription={`I found the design of CowryWise to be highly impressive, which has motivated me to create a similar landing page as an homage to their aesthetic and user experience.`}
+                Tools={["React", "Redux", "CSS"]}
+                Image={"/cowryWise.png"}
+                overlayId={"fff22"}
+                noCode={false}
+                link={"https://cowry-wise-clone.vercel.app/"}
+                gitHub={"https://github.com/raphpumkin/cowryWiseClone"}
+              />
+              <LeftRightShowcase
+                projectName={"GitHub Clone"}
+                discription={`I have always been fascinated by the visually appealing design of the GitHub landing page, which has motivated me to create a clone of it as a demonstration of its impressive aesthetics`}
+                Tools={["React", "Redux", "CSS", "Material-UI"]}
+                Image={"/GitHub.png"}
+                overlayId={"fdeff22"}
+                noCode={false}
+                link={"https://git-hub-landing-page.vercel.app/"}
+                gitHub={"https://github.com/raphpumkin/GitHubLandingPage"}
               />
             </div>
           </main>
