@@ -50,7 +50,7 @@ const MyWork = () => {
               />
               <RightLeftShowcase
                 projectName={"The Fingertipps-APi"}
-                discription={`A tool for building fully funtional eccomerce aplications, eliminating the for writing back-end code`}
+                discription={`A tool for building fully funtional eccomerce aplications, eliminating the need for writing back-end code`}
                 Tools={[
                   "TypeScript",
                   "Next.js",
