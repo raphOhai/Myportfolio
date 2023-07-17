@@ -50,7 +50,7 @@ const MyWork = () => {
               />
               <RightLeftShowcase
                 projectName={"The Fingertipps-APi"}
-                discription={`A tool for building fully funtional eccomerce aplications, eliminating the need for writing back-end code`}
+                discription={`A tool for building fully funtional e-comerce aplications, eliminating the need for writing back-end code`}
                 Tools={[
                   "TypeScript",
                   "Next.js",
@@ -68,7 +68,7 @@ const MyWork = () => {
               />
               <LeftRightShowcase
                 projectName={"True Buy"}
-                discription={`A fully functional eccomerce aplication built with the Fingertipps-API`}
+                discription={`A fully functional e-comerce aplication built with the Fingertipps-API`}
                 Tools={["React", "Redux", "CSS", "Fingertipps-API"]}
                 Image={"/trueBuy.png"}
                 overlayId={"fdeff22"}
