@@ -111,7 +111,7 @@ const MyWork = () => {
                 discription={`I have always been fascinated by the visually appealing design of the GitHub landing page, which has motivated me to create a clone of it as a demonstration of its impressive aesthetics`}
                 Tools={["React", "Redux", "CSS", "Material-UI"]}
                 Image={"/GitHub.png"}
-                overlayId={"fdeff22"}
+                overlayId={"fdeff2scs2"}
                 noCode={false}
                 link={"https://git-hub-landing-page.vercel.app/"}
                 gitHub={"https://github.com/raphpumkin/GitHubLandingPage"}
