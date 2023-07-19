@@ -1,9 +1,9 @@
 import MultipleAnimator from "../functions/BulkAnimator";
 
 const Abouts = () => {
-  MultipleAnimator()
+  MultipleAnimator();
   return (
-    <div  className="flex center maxWidth fullV SlideUp">
+    <div className="flex center maxWidth fullV SlideUp">
       <div className="stack gap2 sectionPadding">
         <div style={{ maxWidth: "31rem" }} className="flex ">
           <div className="flex gap1">
@@ -39,6 +39,20 @@ const Abouts = () => {
             <p className="slateText">
               Here are a few technologies I’ve been working with recently:
             </p>
+            <div className="flex gap2 start ">
+              <div className="flex2 widthRestrict2">
+                <p className="slateText">- TypeScript</p>
+                <p className="slateText">- JavaScript</p>
+                <p className="slateText">- Next.js</p>
+                <p className="slateText">- React</p>
+                <p className="slateText">- Redux</p>
+                <p className="slateText">- MongoDB</p>
+                <p className="slateText">- Node.js</p>
+                <p className="slateText">- Express</p>
+                <p className="slateText">- linux</p>
+                <p className="slateText">- Apache2</p>
+              </div>
+            </div>
           </div>
           <div className="hideTabAndMobile"></div>
         </div>
