@@ -60,8 +60,9 @@ const Nav = () => {
                 displayText="resume"
               />
             </div> */}
-         
+
             <div
+               style={{marginTop:".5rem"}}
               onClick={() => navAnimation()}
               className="dashContainer hideDeskTop"
             >
