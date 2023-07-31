@@ -25,7 +25,7 @@ const Hero = () => {
             style={{ marginTop: "4rem" }}
             className="flex gap2 Start SlideUp2 group"
           >
-            <a href="https://drive.google.com/file/d/10BP7ACaEUr_DUIVDEVqdmfbkmgTAPhpm/view?usp=sharing">
+            <a href="https://drive.google.com/file/d/10CWi1MXgUQ7Aw1lNCcV2JZUogwdoo3B7/view">
               <Button
                 slide={"btnslfffd45"}
                 text={"btffntxt45"}
