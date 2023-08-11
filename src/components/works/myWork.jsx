@@ -26,8 +26,8 @@ const MyWork = () => {
           </div>
 
           <main>
-            <div className="stack gapX">
-              <LeftRightShowcase
+            <div style={{ marginTop: "2rem" }} className="stack gapX">
+              {/* <LeftRightShowcase
                 projectName={"Fingertipps"}
                 discription={`Fingertipps, is an all-in-one platform that facilitates
                 e-commerce. Here, small businesses can create, customize and
@@ -47,10 +47,10 @@ const MyWork = () => {
                 noCode={true}
                 link={"https://fingertipps.store/"}
                 gitHub={""}
-              />
+              /> */}
               <RightLeftShowcase
                 projectName={"The Fingertipps-APi"}
-                discription={`A tool for building fully funtional e-commerce applications, eliminating the need for writing back-end code`}
+                discription={`A Headless CMS for building fully funtional e-commerce applications, eliminating the need for writing back-end code`}
                 Tools={[
                   "TypeScript",
                   "Next.js",
@@ -115,6 +115,17 @@ const MyWork = () => {
                 noCode={false}
                 link={"https://git-hub-landing-page.vercel.app/"}
                 gitHub={"https://github.com/raphpumkin/GitHubLandingPage"}
+              />
+
+              <RightLeftShowcase
+                projectName={"contract @H-Major"}
+                discription={`I created the website for H-Major, incorporating intuitive SVG path animations that seamlessly guide visitors as they navigate through the scrolling experience.`}
+                Tools={["Next.js", "CSS"]}
+                Image={"/hmajor.png"}
+                overlayId={"fffdddd22"}
+                noCode={true}
+                link={"https://h-corp.vercel.app/"}
+                // gitHub={"https://github.com/raphpumkin/cowryWiseClone"}
               />
             </div>
           </main>
