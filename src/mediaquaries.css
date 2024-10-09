@@ -78,6 +78,10 @@
     display: grid;
     grid-template-columns: 1fr;
   }
+
+  img {
+    object-fit: cover;
+  }
   .responsive {
     width: 100%;
     height: auto;
